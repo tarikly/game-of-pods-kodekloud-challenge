@@ -13,7 +13,7 @@ Challenge | Name | Solution YML files | Explanation Video |
 --------- | ---- | ------------------ | ----------------- |
 Production Clusters | Voting Application |[Github](./solutions/voting-application) | [Youtube](https://www.youtube.com/watch?v=yuB_yJIVkSc)|
 Tyro | Jekyll | | |
-Pento | Fix Game of Pod Cluster | | |
+Pento | Fix Game of Pod Cluster | [Github](./solutions/pento-solution.yml) | |
 Bravo | Drupal | [Github](./solutions/drupal) | [Youtube](https://www.youtube.com/watch?v=YqrIQUebpg8)|
 Datalake | Not available yet | | |
 Ingress | Not available yet | | |
