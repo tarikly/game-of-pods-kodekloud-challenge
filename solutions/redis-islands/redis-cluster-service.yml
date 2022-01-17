@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: redis-cluster-service
 spec:
+  type: ClusterIP
   ports:
   - port: 6379
     targetPort: 6379
@@ -10,3 +11,5 @@ spec:
   - port: 16379
     targetPort: 16379
     name: gossip
+  selector:
+    app: redis-cluster

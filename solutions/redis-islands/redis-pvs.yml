@@ -1,0 +1,65 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: redis01
+spec:
+  accessModes: ["ReadWriteOnce"]
+  hostPath:
+    path: /redis01
+  capacity:
+    storage: 1Gi
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: redis02
+spec:
+  accessModes ["ReadWriteOnce"]
+  hostPath:
+    path: /redis02
+  capacity:
+    storage: 1Gi
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: redis03
+spec:
+  accessModes: ["ReadWriteOnce"]
+  hostPath:
+    path: /redis03
+  capacity:
+    storage: 1Gi
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: redis04
+spec:
+  accessModes: ["ReadWriteOnce"]
+  hostPath:
+    path: /redis04
+  capacity:
+    storage: 1Gi
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: redis05
+spec:
+  accessModes: ["ReadWriteOnce"]
+  hostPath:
+    path: /redis05
+  capacity:
+    storage: 1Gi
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: redis06
+spec:
+  accessModes: ["ReadWriteOnce"]
+  hostPath:
+    path: /redis06
+  capacity:
+    storage: 1Gi

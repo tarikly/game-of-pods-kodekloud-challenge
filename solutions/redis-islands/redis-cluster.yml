@@ -5,18 +5,18 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: redis
-  serviceName: "redis-cluster-service"
+      app: redis-cluster
+  serviceName: "redis-cluster"
   replicas: 6
 
   template:
     metadata:
       labels:
-        app: redis
+        app: redis-cluster
     spec:
       terminationGracePeriodSeconds: 10
       containers:
-      - name: redis-server
+      - name: redis
         image: redis:5.0.1-alpine
         command:  ["/conf/update-node.sh", "redis-server", "/conf/redis.conf"]
         env:
@@ -35,10 +35,12 @@ spec:
           readOnly: false
         - name: data
           mountPath: /data
+          readOnly: false
       volumes:
         - name: conf
           configMap:
             name: redis-cluster-configmap
+            defaultMode: 0755
   volumeClaimTemplates:
   - metadata:
       name: data
