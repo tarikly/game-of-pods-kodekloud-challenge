@@ -19,4 +19,4 @@ Datalake | Not available yet | | |
 Ingress | Not available yet | | |
 Firewall | Not available yet | | |
 Services | Not available yet | | |
-Redis Islands | [Github](./solutions/redis-islands) | |
+Redis Islands | | [Github](./solutions/redis-islands) | |
