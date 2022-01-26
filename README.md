@@ -13,10 +13,10 @@ Challenge | Name | Solution YML files | Explanation Video |
 --------- | ---- | ------------------ | ----------------- |
 Production Clusters | Voting Application |[Github](./solutions/voting-application) | [Youtube](https://www.youtube.com/watch?v=yuB_yJIVkSc)|
 Tyro | Jekyll | [Github](./solutions/tyro) | |
-Pento | Fix Game of Pod Cluster | [Github](./solutions/pento/solution.yml) | |
+Pento | Fix Game of Pod Cluster | [Github](./solutions/pento) | |
 Bravo | Drupal | [Github](./solutions/drupal) | [Youtube](https://www.youtube.com/watch?v=YqrIQUebpg8)|
 Datalake | Not available yet | | |
 Ingress | Not available yet | | |
 Firewall | Not available yet | | |
 Services | Not available yet | | |
-Redis Islands | Not available yet | | |
+Redis Islands | [Github](./solutions/redis-islands) | |
